@@ -1,8 +1,8 @@
 # Remote File Transfer in C using Stream Sockets
 
 server.c : Responsible for serving clients by providing them with the requested file, assuming the file is readable and in the same   
-           directory as server.c
-           Client is able to request any type of files(e.g. .jpg, .mp3...etc). Server.c runs indefinitely unless binding fails. 
+           directory as server.c. Client is able to request any type of files(e.g. .jpg, .mp3...etc). Server.c runs indefinitely unless 
+           binding fails. 
            
            server.c requires 1 command-line argument, the port number when running.
            
@@ -25,4 +25,4 @@ To run(using tree.jpg as an example):
    ./client <Server IPv4 Address in dot notation> <port num (same as the above)> tree.jpg tree_copy.jpg
    
    
-Note: Requested file from client does not need to be in same directory as client.c
+Note: Requested file from client does not need to be in same directory as client.c.
